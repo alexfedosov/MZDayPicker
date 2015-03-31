@@ -108,7 +108,7 @@
     _dayLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.cellSize.width, self.cellSize.height)];
     _dayLabel.center = CGPointMake(_containerView.frame.size.width/2, self.cellSize.height/2.6);
     _dayLabel.textAlignment = NSTextAlignmentCenter;
-    _dayLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:self.dayLabel.font.pointSize];
+    _dayLabel.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:self.dayLabel.font.pointSize];
     _dayLabel.backgroundColor = [UIColor clearColor];
     
     _dayNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.cellSize.width, self.cellSize.height)];

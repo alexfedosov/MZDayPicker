@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "An iOS day picker to allow users to select date."
 
-  s.homepage     = "https://github.com/m1entus/MZDayPicker"
+  s.homepage     = "https://github.com/alexfedosov/MZDayPicker"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { "Michał Zaborowski" => "m1entus@gmail.com" }
+  s.author       = { "Michał Zaborowski" => "m1entus@gmail.com", "Alex Fedosov" => "alexander.a.fedosov@gmail.com" }
 
-  s.source       = { :git => "https://github.com/m1entus/MZDayPicker.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/alexfedosov/MZDayPicker.git", :tag => "0.0.3" }
   
   s.source_files = 'MZDayPicker/*.{h,m}'
   
